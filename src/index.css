@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-full{
+    width: 100%;
+    height: auto;
+}
+.setmidlle{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.online{
+    width: 10px;
+    height: 10px;
+    background-color: chartreuse;
+    border-radius: 50%
+}
+.offline{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%
+}
+.overflow{
+    overflow: visible;
+}
+.sidenav{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.pointer{
+    cursor: pointer;
+}
+.navbar{
+    height:70px ;
+}
+.height-mess{
+    height:900px ;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.vt-admin{
+     padding: 10px;
+    text-align: right;
+    position: relative;
+    white-space: pre-wrap;
+}
+.vt-client{
+     padding: 10px;
+    text-align: left;
+    position: relative;
+    white-space: pre-wrap;
+}
+.stylemessadmin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 35px;
+    color:white;
+    background-color: #0084ff;
+    border-color: #c3e6cb;
+}
+.stylemessclient{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 35px;
+    color: black;
+    background-color: #f1f0f1;
+    border-color: #c3e6cb;
+}
+
+.stylemess{
+   position: relative;
+}
